@@ -3,6 +3,8 @@ app = express()
 
 process.env.PWD = process.cwd()
 
+console.log 'PWD = ', process.env.PWD
+
 # Serve static files
 app.use express.static(process.env.PWD + '/public')
 
