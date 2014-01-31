@@ -13,7 +13,7 @@ app.use (req, res, next)->
 app.get '/', (req, res, next)->
   res.redirect('/online.html')
 
-port = process.env.port || 1234
+port = process.env.PORT || 1234
 
 app.listen port, ()->
   console.log 'listening on port', port
