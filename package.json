@@ -1,0 +1,17 @@
+{
+  "author": "Arnaud Rinquin",
+  "name": "videoappcache",
+  "homepage": "https://github.com/wopata/videoappcache",
+  "version": "0.0.1-SNAPSHOT",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-manifest": "~0.4.0",
+    "express": "3.x"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
